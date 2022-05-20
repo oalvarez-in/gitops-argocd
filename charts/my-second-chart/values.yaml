@@ -9,7 +9,7 @@ image:
   repository: redis
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "7.0.0"
 
 imagePullSecrets: []
 nameOverride: ""
