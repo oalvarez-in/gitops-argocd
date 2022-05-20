@@ -6,10 +6,10 @@ replicaCount: 1
 namespace: custom-services
 
 image:
-  repository: redis
+  repository: mongo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "7.0.0"
+  tag: "4.4.14"
 
 imagePullSecrets: []
 nameOverride: ""
