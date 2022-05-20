@@ -6,10 +6,10 @@ replicaCount: 1
 namespace: custom-services
 
 image:
-  repository: mongo
+  repository: hello-world
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "4.4.14"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
